@@ -7,20 +7,24 @@
     apt:
       name: apache2
       state: present
+    when: ansible_os_family== "Debain"
 
   - name: i want to start mywebserver on ubuntu
     service: 
       name: apache2
-      state: 
+      state: started
+    when: ansible_os_family== "Debain"
   
   - name: i want to install webserver on redhat
     yum:
       name: httpd
       state: present
-      
+    when: ansible_os_family== "RedHat"
+
   - name: i want to install webserver on redhat
     service:
        name: httpd
        state: started
-       
+    when: ansible_os_family== "RedHat"
+    
       
