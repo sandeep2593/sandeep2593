@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: mywebserverss
   become: yes
   tasks:
   - name: i want to install webserver on ubuntu
