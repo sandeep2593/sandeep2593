@@ -1,0 +1,6 @@
+---
+
+mywebpackageforubuntunode=apache2
+mywebpackageforRedHatnode=httpd
+myjavapackageforubuntunode=openjdk-8-jre
+myjavapackageforRedHatnode=java-1.8.0-openjdk
