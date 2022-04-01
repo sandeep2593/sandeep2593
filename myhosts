@@ -11,5 +11,5 @@
 172.31.85.91
 
 [mywebservers:vars]
-mywebpackageforubuntunode=apache2
-mywebpackageforRedHatnode=httpd
+mywebpackageforubuntunode=openjdk-8-jre
+mywebpackageforRedHatnode=java-1.8.0-openjdk
